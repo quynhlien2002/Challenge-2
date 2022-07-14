@@ -1,0 +1,195 @@
+:root {
+--dark-blue: #818D9B;
+--light-blue: #CAC8CB;
+--blue: #293B49;
+--beige: #EDE6DC;
+--text-light: #C49D7C;
+--text-dark:#A86F44;
+--brown: #794722;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(var(--dark-blue), var(--light-blue));
+    background-repeat: no repeat;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: var(--dark-blue);
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--light-blue) 0px 5px 10px;
+    margin-top:0;
+}
+
+header h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#list{
+    margin-left: 600px;
+}
+
+#list li{
+    display: inline;
+}
+
+#list a{
+    justify-content: space-between;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    margin: 0px;
+    line-height: 20px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 180px;
+    color: white;
+
+}
+
+#name{
+    display: block;
+    margin-left: 160px;
+    margin-top: 25px;
+    align-items: center;
+    font-size: 50px;
+    color: var(--blue);
+    
+}
+
+.intro{
+    margin-top: 0px;
+}
+
+.side{
+    display: flex; 
+    height:100vh;
+}
+
+#code{
+    margin-left: 400px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.ava-intro{
+    display: flex;
+}
+
+.center{
+    height: 60px;
+    width: 200px;
+    text-align:center;
+    font-size: 25px;
+    position: relative;
+    left: 450px;
+}
+
+.me{
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 200px;
+    width: 600px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.avatar img, .coffee img{
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top:30px;
+}
+
+#project{
+    position:relative;
+    top: 200px;
+}
+
+.process{
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+
+/* .inline{
+    display: flex;
+}
+
+.move{
+    position: relative;
+    top: 600px;
+}
+
+.move section{
+    box-sizing: content-box;
+    height: 400px;
+    width: 800px;
+}
+
+div .next{
+    box-sizing: content-box;
+    height: 100px;
+    width: 400px;
+}
+
+.next .know{
+    position: relative;
+    left: 80px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contact{
+    position: relative;
+    left: 230px;
+    font-size: 19px;
+    line-height: 50px;
+    list-style: none;
+    box-sizing: border-box;
+    height: 100px;
+    width: 400px;
+}
+
+div .coffee img{
+    object-fit: contain;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    
+
+}
+ */
+
+ .two, .about, .move{
+    height:100vh;
+ }
+
+ .know{
+     margin: 0px;
+     display: block;
+     box-sizing: content-box;
+     height: 60px;
+     width: 400px;
+    
+ }
