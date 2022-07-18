@@ -164,17 +164,36 @@
     
     .avatar img{
         object-fit: contain;
-        width: 300px;
-        height: 300px;
+        width: 210px;
+        height: 280px;
         margin-left: 150px;
         margin-top:30px;
+        border: 5px solid #af4261;
+        border-style:groove;
     }
     
-    
-    .process{
-        position: relative;
-        left: 350px;
-    }
+a img{
+    object-fit: contain;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 2px solid #af4261;
+    box-shadow: 4px 4px 4px 2px #f3ec78;
+}
+
+a img:hover{
+    border: 2px solid #f3ec78;
+    box-shadow: 4px 4px 4px 2px #af4261;
+}
+
+div .show{
+    display: flex;
+}
+
+.show p{
+    margin-left: 300px;
+}
+
     .two, .about{
         height:100vh;
      }
@@ -315,12 +334,6 @@
             height: 100vh ;
         }
 
-        /* .coffee .know,
-        .coffee div a{
-            position: relative;
-            right: 120px;
-        } */
-
         div a{
             height: 50px;
             width: 60px;
@@ -329,4 +342,16 @@
         div a i {
            right: 200px;
         }
+        
+        .move , .two{
+            position: relative;
+            right: 150px;
+        }
+    
+
     }
+
+ @media screen and (max-width: 758px) {
+     
+     
+ }
