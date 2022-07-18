@@ -4,7 +4,8 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="./style.css"/>
-        <!-- <link rel="stylesheet" href -->
+        <script src="https://kit.fontawesome.com/751029ca13.js" crossorigin="anonymous"></script>
+      <!-- <link rel="stylesheet" href -->
         <title> Quynh Lien </title>
     </head>
 
@@ -13,14 +14,18 @@
             <h1> Quynh Lien </h1>
             <nav>
                 <ul id="list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#stuff">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
+        
+    
+
+    <div class="divide ">
         <div class="side">
         <div id="head">
             <section class="left">
@@ -41,8 +46,11 @@
             </pre>
         </div>
         </div>
+    </div>
+
+        <hr class="horizontal">
         
-        <div class="about">
+        <div class="about" id="about-me">
             <section>
                 <div class="ava-intro">
                     <h3 class="center">About Me</h3>
@@ -56,32 +64,47 @@
             </section>
         </div>
 
-        <div class="two">
+        <hr class="horizontal">
+
+        <div class="two" id="stuff">
             <section>
                 <h3 class="center" id="project">Projects</h3>
                 <p class="process">In process...</p>
             </section>
         </div>
 
-        <div class="move">
-            <section>
-                <h3 class="center" id="connect">Let's connect</h3>
-                <p class="know">If you would like to know more about me or my projects or just basically anything, don't hesitate to contact and let's grab a coffee to discuss more.</p>
-                <ul class="contact">
-                    <li>Email: <a href="mailto: daisylien1211@gmail.com">Daisylien1211@gmail.com</a> </li>
-                    <li>Phone: (714) 812-9021 </li>
-                </ul>
-                   <div class="coffee">
-                       <img src="./48635143-5D5B-43F4-A1B0-A0E04CE478BD.JPG" alt="Let's grab a cup of coffee">
-                   </div>
-                </section>
+        <hr class="horizontal">
+
+        <div class="move" id="contact">
+            <h3 class="center" id="connect">Let's connect</h3>
+            <div class="coffee">
+                <p class="know">
+                    If you would like to know more about me or my projects or just basically anything, don't hesitate to contact and let's grab a coffee to discuss more.
+                </p>
+                
+                <div>
+                    <a href="https://www.linkedin.com/in/daisy-lien-13b79a232/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:daisylien1211@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+7148129021"><i class="fa-solid fa-square-phone"></i></a>
+                </div>
+
+                <div>
+                <form action="mailto:daisylien1211@gmail.com" method="POST" name="contact">
+                    <input type="hidden" name="form-name" value="contact">
+                    <label for="name"></label>
+                    <input class="box" type="text" name="name" placeholder="name" autocomplete="off" required>
+                    <label for="email"></label>
+                    <input class="box" type="email" name="email" placeholder="email" required>
+                    <label for="message" autocomplete="off"></label>
+                    <textarea class="box" name="message" placeholder="message" required></textarea>
+                    <button class="send" type="submit">send message</button>
+                </form>
+                </div>
         </div>
 
         <footer>
-            
+            <h3>Created and Designed by Daisy</h3>
         </footer>
-
-    
-
     </body>
 </html>
