@@ -91,7 +91,7 @@
         display: block;
         margin-left: 160px;
         align-items: center;
-        font-size: 50px;
+        font-size: 60px;
         background-color: #f3ec78;
         background-image: linear-gradient(45deg, #f3ec78, #af4261);
         background-size: 100%;
@@ -99,7 +99,7 @@
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:'Times New Roman', Times, serif;
 
     }
 
@@ -118,6 +118,7 @@
         margin-left: 400px;
         margin-top: 200px;
         font-size: 20px;
+        line-height: 30px;
         background-color: #f3ec78;
         background-image: linear-gradient(45deg, #f3ec78, #e33282);
         background-size: 100%;
@@ -146,7 +147,7 @@
         height: 60px;
         width: 200px;
         text-align:center;
-        font-size: 25px;
+        font-size: 30px;
         position: relative;
         left: 450px;
         color: #f3ec78;
@@ -306,6 +307,8 @@ div .show{
         position: absolute;
         width: 100%;
         padding-top: 19px;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     @media screen and (max-width: 992px) {
@@ -351,7 +354,4 @@ div .show{
 
     }
 
- @media screen and (max-width: 758px) {
-     
-     
- }
+ 
