@@ -197,6 +197,14 @@
         height: 30px;
         width: 50px;
      } */
+
+    .icon{
+         height: 200px;
+         width: 100px;
+         margin: 0;
+         display: inline;
+         
+     }
      
      div i{
         justify-content: space-between;
@@ -208,9 +216,7 @@
     i{
         color: #af4261;
         font-size: 40px;
-        /* position: relative;
-        top: 150px;
-        right: 350px; */
+    
     }
     
     i:hover{
